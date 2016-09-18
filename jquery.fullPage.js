@@ -803,7 +803,7 @@
             }
 
             if (typeof options.sectionsColor[index] !==  'undefined') {
-                section.css('background-color', options.sectionsColor[index]);
+                section.css('background', options.sectionsColor[index]);
             }
 
             if (typeof options.anchors[index] !== 'undefined') {
